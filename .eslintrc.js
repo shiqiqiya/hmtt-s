@@ -12,6 +12,9 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    // 0代表关  1代表开
+    'no-unused-vars': 0,
+    'vue/multi-word-component-names': 0
   }
 }

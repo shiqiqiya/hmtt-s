@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <!-- 一级占位符 -->
-    <router-view></router-view>
-  </div>
+  <div>视屏</div>
 </template>
 
 <script>
