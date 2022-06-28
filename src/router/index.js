@@ -30,7 +30,9 @@ const routes = [
       },
       {
         path: 'my',
-        component: My
+        component: My,
+        // name 属性易于维护
+        name: 'my'
       }
     ]
   },
