@@ -65,7 +65,7 @@ export default {
   created () { },
   data () {
     return {
-      mobile: '13711111111', // 手机号
+      mobile: '13919800771', // 手机号
       code: '246810', // 验证码
       // time 属性表示倒计时总时长，单位为毫秒。
       time: 10 * 1000,

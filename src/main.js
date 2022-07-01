@@ -10,12 +10,17 @@ import 'amfe-flexible'
 // import '@/styles/reset.less'
 import '@/styles/index.less'
 import MyIcon from '@/components/MyIcon'
+import * as obj from '@/filters/index'
 // 全局组件component 代表挂在到全局对象身上
 Vue.component('MyIcon', MyIcon)
 
 Vue.use(Vant)
 
 Vue.config.productionTip = false
+
+Object.keys(obj).forEach(key => {
+  Vue.filter(key, obj[key])
+})
 
 new Vue({
   router,

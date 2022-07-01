@@ -1,5 +1,4 @@
 import request from '@/utils/request'
-import store from '@/store'
 
 /**
  *获取短信验证码
@@ -31,9 +30,20 @@ export const login = ({ mobile, code }) => {
 */
 export const getUserInfo = () => {
   return request({
-    url: 'user',
-    headers: {
-      Authorization: 'Bearer ' + store.state.user.token
+    url: 'user'
+  })
+}
+/**
+ * 频道数据持久化
+ * @param {*} channels
+ * @returns
+ */
+export const saveChannels = (channels) => {
+  return request({
+    url: 'user/channels',
+    method: 'PUT',
+    data: {
+      channels
     }
   })
 }
