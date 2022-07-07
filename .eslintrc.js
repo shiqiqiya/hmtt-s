@@ -16,6 +16,7 @@ module.exports = {
     // 0代表关  1代表开
     'no-unused-vars': 0,
     'vue/multi-word-component-names': 0,
-    'vue/no-mutating-props': 0
+    'vue/no-mutating-props': 0,
+    camelcase: 0
   }
 }

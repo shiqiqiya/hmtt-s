@@ -11,6 +11,10 @@ import 'amfe-flexible'
 import '@/styles/index.less'
 import MyIcon from '@/components/MyIcon'
 import * as obj from '@/filters/index'
+
+import FollowUser from '@/components/FollowUser.vue'
+import '@/components/'
+Vue.component(FollowUser.name, FollowUser)
 // 全局组件component 代表挂在到全局对象身上
 Vue.component('MyIcon', MyIcon)
 
