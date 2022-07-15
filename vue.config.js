@@ -6,7 +6,7 @@ module.exports = defineConfig({
     config
       .plugin('html')
       .tap(args => {
-        args[0].title = '黑马头条'
+        args[0].title = '新闻头条'
         return args
       })
   },
