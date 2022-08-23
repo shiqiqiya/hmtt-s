@@ -6,6 +6,7 @@
         <van-icon name="cross"></van-icon>
       </template>
     </van-nav-bar>
+    再次的进行最后一次的测试
   </div>
 </template>
 
